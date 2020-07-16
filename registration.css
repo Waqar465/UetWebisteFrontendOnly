@@ -1,0 +1,108 @@
+body{
+	background: url(bg.jpg);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#container{
+	width:1200px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+header{
+	background: linear-gradient(to top left,#0020c2,#659ec7);
+	padding-top: 0px;
+}
+#main-menu{
+	margin-top: 0px;
+}
+#main-menu ul{
+	list-style-type: none;
+	padding-left: 300px;
+	position: relative;
+
+}
+#main-menu li{
+	float:left;
+	font-size: 20px;
+}
+.clear{
+	clear: both;
+}
+#main-menu a{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fffff0;
+	display: block;
+}
+#main-menu a:hover{
+	background: skyblue;
+	color:#0c090a;
+}
+#main-menu ul li ul{
+	position: absolute;
+	visibility: hidden;
+	padding-left: 0px;
+}
+#main-menu ul li ul li{
+	float:none;
+}
+#main-menu ul li:hover ul{
+	visibility: visible;
+
+	background: linear-gradient(to top left,#0020c2,#659ec7);
+}
+/* ==========================================================================================================================================================
+                       end of main menu styling
+===================================================================================================================================================*/
+#registration-form{
+	background:url("IMG_456015.jpg");
+}
+#registration-form h2{
+	padding-top:20px;
+	font-size:25px;
+	color:white;
+	margin-top:0px;
+	font-family:helvetica;
+	text-align:center;
+}
+#personal{
+	background: lightpink;
+	line-height:30px;
+	color:black;
+	font-size:25px;
+	padding-left:15px;
+}
+input{
+	border-radius: 5px;
+	margin-left:5px;
+	padding-left:10px;
+	height:30px;
+	margin-top:10px;
+}
+
+#academics{
+	background: lightpink;
+	line-height:30px;
+	color:black;
+	font-size:25px;
+	padding-left:15px;
+	margin-top:10px;
+}
+#contacts{
+		background: lightpink;
+	line-height:30px;
+	color:black;
+	font-size:25px;
+	padding-left:15px;
+	margin-top:10px;
+}
+footer{
+	background:#4c4646;
+	color:#fffff0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;	
+	font-size: 20px;
+	text-align: right;
+}

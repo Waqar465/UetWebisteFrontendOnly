@@ -1,0 +1,185 @@
+body{
+	background: url(bg.jpg);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#container{
+	width:1200px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+header{
+	background: linear-gradient(to top left,#0020c2,#659ec7);
+	padding-top: 0px;
+}
+#main-menu{
+	margin-top: 0px;
+}
+#main-menu ul{
+	list-style-type: none;
+	padding-left: 300px;
+	position: relative;
+
+}
+#main-menu li{
+	float:left;
+	font-size: 20px;
+}
+.clear{
+	clear: both;
+}
+#main-menu a{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fffff0;
+	display: block;
+}
+#main-menu a:hover{
+	background: skyblue;
+	color:#0c090a;
+}
+#main-menu ul li ul{
+	position: absolute;
+	visibility: hidden;
+	padding-left: 0px;
+}
+#main-menu ul li ul li{
+	float:none;
+}
+#main-menu ul li:hover ul{
+	visibility: visible;
+
+	background: linear-gradient(to top left,#0020c2,#659ec7);
+}
+img{
+	cursor:pointer;
+	box-shadow:0px 0px 15px grey;
+}
+
+/* ==========================================================================================================================================================
+                       end of main menu styling
+===================================================================================================================================================*/					   
+h2{
+color:white;
+font-size:35;
+font-family:Bernard MT Condensed;
+}
+strong{
+border:5px solid red;
+background-color:black;
+color:white;
+}
+
+/*========================================================================================================================================================
+				events
+=======================================================================================================================================================*/
+#events{ 
+	background:linear-gradient(to bottom left,#ffffcc,#f3e5ab);
+}
+.r1-left{
+	width:550px;
+	float:left;
+	font-color:#fffff0;
+}
+.r1-left table img{
+	border:2xp dashed black;
+	border-radius: 35px;
+}
+.r1-right{
+	width:550px;
+	float:right;
+	color: #fffff0;
+}
+
+.r1-right table img{
+	border:2xp dashed black;
+	border-radius: 35px;
+}
+.r2-left{
+	width:550px;
+	float:left;
+	color: #fffff0;
+}
+
+.r2-left table img{
+	border:2px dashed black;
+	border-radius: 35px;
+}
+.r2-right{
+	width:550px;
+	float:right;
+	color: #fffff0;
+}
+
+.r2-right table img{
+	border:2xp dashed black;
+	border-radius: 35px;
+}
+.r3-left{
+	width:550px;
+	float:left;
+	color: #fffff0;
+}
+
+.r3-left table img{
+	border:2xp dashed black;
+	border-radius: 35px;
+}
+.r3-right{
+	width:550px;
+	float:right;
+	color: #fffff0;
+	margin-top:15px;
+}
+
+.r3-right table img{
+	border:2xp dashed black;
+	border-radius: 35px;
+}
+/*========================================================================================================================================================
+				events end
+=======================================================================================================================================================*/
+
+
+/*========================================================================================================================================================
+				glance starts
+=======================================================================================================================================================*/
+
+
+#glance-uet{
+	margin-top:20px;
+		background:linear-gradient(to bottom left,#ffffcc,#f3e5ab);
+
+}
+/*========================================================================================================================================================
+				glance ends
+=======================================================================================================================================================*/
+
+/*========================================================================================================================================================
+				weblinks starts
+=======================================================================================================================================================*/
+
+#weblinks{
+	margin-top: 25px;
+}
+
+/*========================================================================================================================================================
+				weblinks ends
+=======================================================================================================================================================*/
+
+footer{
+	background:#4c4646;
+	color:#fffff0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;	
+	font-size: 20px;
+	text-align: right;
+}
+
+
+
+/*========================================================================================================================================================
+			footer end
+=======================================================================================================================================================*/

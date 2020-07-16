@@ -1,0 +1,103 @@
+body{
+	background: url(bg.jpg);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#container{
+	width:1200px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+header{
+	background: linear-gradient(to top left,#0020c2,#659ec7);
+	padding-top: 0px;
+}
+#main-menu{
+	margin-top: 0px;
+}
+#main-menu ul{
+	list-style-type: none;
+	padding-left: 300px;
+	position: relative;
+
+}
+#main-menu li{
+	float:left;
+	font-size: 20px;
+}
+.clear{
+	clear: both;
+}
+#main-menu a{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fffff0;
+	display: block;
+}
+#main-menu a:hover{
+	background: skyblue;
+	color:#0c090a;
+}
+#main-menu ul li ul{
+	position: absolute;
+	visibility: hidden;
+	padding-left: 0px;
+}
+#main-menu ul li ul li{
+	float:none;
+}
+#main-menu ul li:hover ul{
+	visibility: visible;
+
+	background: linear-gradient(to top left,#0020c2,#659ec7);
+}
+/* ==========================================================================================================================================================
+                       end of main menu styling
+===================================================================================================================================================*/
+#programmes{
+	background:white;
+}
+#programmes h2{
+    padding-left:30px;
+	color: #1c3a78;
+    font-family: 'myriadpro-regular';
+	font-size:30px;
+	
+}
+#programmes input{
+	border-radius: 5px;
+	margin-left:20px;
+	padding-left:10px;
+	height:30px;
+
+}
+#outerbox img{
+	
+	padding-left:10px;
+	padding-top:10px;
+	transition:transform 1s;
+}
+#outerbox:hover img{
+	transform:scale(1.25,1.25);
+}
+#matter{
+	transition:transform 1s;
+	width:300px;
+	height:115px;
+
+}
+#matter p{
+	background:red;
+	color:white;
+	font-size:24px;
+}
+
+#outerbox{
+	overflow:hidden;
+	width:300px;
+	height:115px;
+}
+#outerbox:hover #matter{
+	transform:translateY(-70px);
+}

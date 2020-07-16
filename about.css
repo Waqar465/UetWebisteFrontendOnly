@@ -1,0 +1,136 @@
+body{
+	background: url(bg.jpg);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#container{
+	width:1200px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+header{
+	background: linear-gradient(to top left,#0020c2,#659ec7);
+	padding-top: 0px;
+}
+#main-menu{
+	margin-top: 0px;
+}
+#main-menu ul{
+	list-style-type: none;
+	padding-left: 300px;
+	position: relative;
+
+}
+#main-menu li{
+	float:left;
+	font-size: 20px;
+}
+.clear{
+	clear: both;
+}
+#main-menu a{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fffff0;
+	display: block;
+}
+#main-menu a:hover{
+	background: skyblue;
+	color:#0c090a;
+}
+#main-menu ul li ul{
+	position: absolute;
+	visibility: hidden;
+	padding-left: 0px;
+}
+#main-menu ul li ul li{
+	float:none;
+}
+#main-menu ul li:hover ul{
+	visibility: visible;
+
+	background: linear-gradient(to top left,#0020c2,#659ec7);
+}
+/* ==========================================================================================================================================================
+                       end of main menu styling
+===================================================================================================================================================*/
+#aboutme{
+	background:url("html-color-codes-color-tutorials-903ea3cb.jpg");
+}
+/*===========================================================================================================================================================
+				end of about me styling
+=======================================================================================================================================================*/
+#right{
+	padding-top:20px;
+	float:right;
+}
+
+#left{
+	padding:20px;
+	float:left;
+	width:800px;	
+}
+
+#clear{
+	clear:both;
+}
+#left i{
+	font-size:20px;
+}
+#left strong{
+	font-size:25px;
+	color:aqua;
+}
+#left i{
+	color:white;
+}
+/*===========================================================================================================================================================
+				end of left right div styling
+=======================================================================================================================================================*/
+
+
+#footer{
+	float:left;
+}
+#outerbox{
+	border:8px solid grey;
+	box-shadow:0px 0px 15px grey;
+	width:300px;
+	height:300px;
+	overflow:hidden;
+}
+ #outerbox img{
+	 transition: transform 1s;
+}
+ #outerbox:hover img{
+	 transform: scale(-1.5,1.5);
+}
+#matter{
+	width:300px;
+	height:300px;
+	transition: transform 1.5s;
+}
+#matter p{
+	background:red;
+	color:white;
+	font-size:24px;
+	padding-left:10px;
+	line-height:30px;
+	text-align:center;
+}
+#outerbox:hover #matter{
+	transform:translatey(-75px)  rotate(360deg);
+	
+}
+
+footer{
+	background:#4c4646;
+	color:#fffff0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;	
+	font-size: 20px;
+	text-align: right;
+	width:1180px;
+}
